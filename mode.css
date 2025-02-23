@@ -1,0 +1,248 @@
+body {
+	transition: background .2s linear;
+}
+
+/* LIGHT THEME FUNCTION*/
+.light#header {
+	background: rgb(18,18,20) !important;
+	border-bottom: 1px solid #ffffff59 !important;
+}
+
+.light#header a.active {
+	color: var(--base-color-light) !important;
+}
+
+.light a::after {
+	background: var(--base-color-light);
+}
+
+.light#header nav.show .menu {
+	background: var(--body-toggle-color) !important;
+	color: #000e24 !important;
+}
+
+.light#header nav.show .menu .active {
+	color: #0283de !important;
+}
+
+.light#header nav.show .menu a::after {
+	background: #0283de !important;
+}
+
+.light#header nav.show .menu a.title:hover {
+	color: #0283de !important;
+}
+
+.light#header .toggle.icon-close {
+	color: var(--body-color);
+}
+
+.light#header .toggle.icon-close:hover {
+	color: #0283de !important;
+  }
+
+.light#header .toggle.icon-menu {
+	color: #0283de;
+}
+
+.light#header .toggle.icon-menu:hover {
+	color: #8cb3cf;
+	transition: .3s;
+}
+
+.light .text {
+	color: var(--body-color) !important;
+}
+
+.light .white {
+	color: var(--body-color) !important;
+}
+
+.light h3, .light p, .light li, .light .title-dark {
+	color: #D4CBCB !important;
+} 
+
+.light#home {
+	background: radial-gradient( #0164ac, #015591, #014575, #003357, #002b49, #001a2c, rgb(18,18,20)) !important;
+}
+
+.light#home .img{
+	box-shadow: none;
+}
+
+.light#home .image::before {
+	background: rgba(18,18,20, 0.4);
+}
+
+.light#about {
+	background: rgb(18,18,20) !important;
+}
+
+.light#about .img{
+	box-shadow: none;
+}
+
+.light#about .image::before {
+	background-image: linear-gradient(rgb(14, 14, 15), rgb(18,18,20));
+}
+
+.light#services {
+	background-image: linear-gradient(to right, rgb(18,18,20), rgb(10,10,11)) !important;
+}
+
+.light#services strong {
+	color: #0283de;
+}
+
+.light#services .card {
+	border-bottom: .25rem solid #0283de !important;
+}
+
+.light#contact {
+	background-image: linear-gradient(to right, rgb(18,18,20), rgb(10,10,11)) !important;
+}
+
+.light#testimonials {
+	background: rgb(18,18,20) !important;
+}
+
+.light#testimonials h2.title, 
+.light#testimonials cite {
+	color: var(--body-color) !important;
+}
+
+.light#testimonials span {
+	color: #0283de !important;
+}
+
+.light#testimonials div.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	color: #0283de !important;
+}
+
+.light#contact i {
+	color: #0283de;
+}
+
+.light#contact i.contact {
+	color: var(--body-color);
+}
+
+.light#header a.logo {
+	color: var(--body-color) !important;
+}
+
+.light#header span {
+	color: #0283de ;
+}
+
+.light#header li a {
+	color: var(--body-color) !important;
+}
+
+.light#header a.title.active {
+	color: #0283de !important;
+}
+
+.light#header a.title.active::after {
+	background: #0283de !important;
+}
+
+.light#header a.title:hover::after {
+	background: #0283de !important;
+}
+
+.light#header li a:hover {
+	color: #0283de !important;
+}
+
+.light.footer {
+	background: rgb(18,18,20) !important;
+}
+
+.light.footer a.logo-alt {
+	color: var(--body-color);
+}
+
+.light.footer p {
+	color: var(--body-color-light) !important;
+}
+
+.light.footer .social i:hover {
+	color: #0283de !important;
+}
+
+.light.divider-1 {
+	background: linear-gradient(
+	  270deg,
+	  hsla(var(--hue), 6%, 7%, 1) 0%,
+	  hsla(var(--hue), 5%, 8%, 0.34) 100%
+	) !important;
+  }
+  
+.light.divider-2 {
+	background: linear-gradient(
+	  270deg,
+	  hsla(var(--hue), 665%, 8%, 0.34),
+	  hsla(var(--hue), 6%, 7%, 1)
+	) !important;
+  }
+
+.light .button {
+	background: #0283de;
+}
+
+.light.back-to-top {
+	background: #0283de !important;
+}
+
+.light.back-to-top:hover {
+	border: solid #0283de !important;
+  }
+
+
+/* BUTTON SWITCH THEME */
+.checkbox {
+	padding-left: 4rem;
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background-color: rgb(194, 220, 245);
+	border-radius: 50px;
+	cursor: pointer;
+	padding-left: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-top: .3rem;
+	padding: .15rem;
+	height: 13px;
+	width: 39px;
+
+	transform: scale(1.5);
+	transition:.3s;
+}
+
+.label .ball {
+	background-color: rgb(255, 255, 255);
+	border-radius: 50%;
+	position: absolute;
+	left: -.3px;
+
+	height: 15.5px;
+	width: 15.5px;
+
+	transform: translateX(0px);
+	transition: transform .2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(25.1px);
+}
+
+.checkbox:checked + .label {
+	background-color: #0283de;
+	transition: .3s;
+}
