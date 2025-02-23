@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- sobre o site -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="theme-color" content="#676767">
+    <title>HELPtech</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="imagens/helptechfavicon.png">
+
+    <!--swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- icone -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- estilizando -->
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/mode.css">
+    <link rel="stylesheet" href="styles/room.css">
+    <link rel="stylesheet" href="styles/global.css">
+    
+    <!--fonte serif-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body class="bg">
+    <!-- Menu -->
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">HELP<span>tech</span>.</a>
+        <div class="functions">
+            </div>
+        <!--botao-->
+        <button id="darkModeToggle">alterar tema</button>
+        <script src="script.js"></script>
+            </label>
+         
+            
+          <div class="menu">
+            <ul class="grid">
+              <li><a class="title" href="#home">Início</a></li>
+              <li><a class="title" href="#about">Sobre</a></li>
+              <li><a class="title" href="#services">Serviços</a></li>
+           
+              <li><a class="title" href="#contact">Contato</a></li>
+          </div>
+          <div class="toggle icon-menu"></div>
+          <div class="toggle icon-close"></div>
+        </div> 
+      </nav>
+    </header>
+
+    
+    <main>
+      <!-- Home -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            
+            <img  class= "img"
+            src="imagens/helptech.png" alt="imagem HELPtech">
+            
+          </div>
+          
+          <div class="text">
+            <h2 class="title white">HELPtech Informática</h2>
+            <p class="subtitle">
+              HELPtech trazendo sempre da melhor forma a solução para seu consumidor.
+            </p>
+          
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img class="img"
+             src="imagens/helptech.png" alt="">
+          </div>
+          <div class="text">
+            <h2 class="title white">afinal,quem somos?</h2>
+            <h3>HELPtech</h3>
+            <p>A HELPtech tecnology é nova no mercado,vindo com o intuito de ajudar o consumidor com aquele probleminha chato que o computador pode dar,ou um pequeno defeito na tela do notebook,oferecendo o conforto do consumidor de ir buscar ate a sua casa o notebook ou computador.</p>
+            <br>
+            <h3>Profissionalismo</h3>
+            <p>A HELPtech tecnology vem trazendo 
+              Comprometimento,
+              Dedicação e
+             um custo benefecio agradável ao público</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+      
+      <!-- nossos serviços -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title white">A HELPtech oferece</h2>
+            <p>Um suporte de qualidade,com a profissional Mariana e um bom atendimento ao seu consumidor </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+                 <img class="ser" src="imagens/hardware.png" alt="hardware" style="align-items: center;">             
+                <i class="icon-technical-sup"></i>
+              <h3 class="title">Suporte Técnico hardwares</h3>
+              <ul>
+                <li>Configuração e manutenção de hardwares (notebooks e computadores de mesa)</li>
+                <li>Testes de funcionamento de hardwares</li>
+                <li>limpeza no hardware</li>
+                <li>troca de componentes</li>
+              </ul>
+            </div>
+            <div class="card">
+              <i class="icon-cam"></i>
+              <img class="ser" src="imagens/software.png" alt="software" style="align-items: center;">
+              <h3 class="title">Suporte Técnico Software</h3>
+              <ul>
+               <li>instalações de aplicações</li>
+               <li>atualizaçao e manutençao do windowns,linux e macOS</li>
+                 <li>Help Desk (asistencia remota) </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+               
+
+      <div class="divider-2"></div>
+
+      <!-- entrando em contato -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title-dark">Entre em contato e peça o orçamento!</h2>
+              <a href="https://api.whatsapp.com/send?phone=5514998194144"
+              class="button"
+              target="blank">
+              <i class="icon-whatsapp contact"></i> Entrar em contato</a>
+          </div>
+        
+          <div class="links">
+            <ul class="grid"> 
+              <li><i class="icon-phone"></i> (14)99819-4144
+              <li><i class="icon-whatsapp"></i> 14 98103-8760</li>
+              <li><i class="icon-map-pin"></i> R. Guido albino bissacot N°21 Residencial Ouro verde Botucatu-SP</li>
+              <li><i class="icon-mail"></i> marianaedf05@gmail.com</li>
+            </ul>
+          </div>
+        </div>          
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+   
+    <footer class="section footer" id="footer">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">HELP<span>tech</span>.</a>
+          
+        </div>
+
+        <div class="social">
+          <a href="https://www.instagram.com/helptech_ti//" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+          </a>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!--swiper-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    
+    
+    <!--main-->
+    <script src="main.js"></script>
+
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+    <script type="text/javascript">
+    $("#tel").mask("(00) 00000-0000");
+    </script>
+  </body>
+</html>
